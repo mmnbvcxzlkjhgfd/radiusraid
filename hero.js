@@ -11,14 +11,14 @@ $.Hero = function() {
 	this.direction = 0;
 	this.accel = 0.5;
 	this.radius = 10;
-	this.life = 1;
+	this.life = 100;
 	this.takingDamage = 0;
 	this.fillStyle = '#fff';
 	this.weapon = {
-		fireRate: 5,
-		fireRateTick: 5,
+		fireRate: 1000,
+		fireRateTick: 1000,
 		spread: 0.3,
-		count: 1,
+		count: 5,
 		bullet: {
 			size: 15,
 			lineWidth: 2,
